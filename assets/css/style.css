@@ -1,0 +1,48 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: white;
+    background-color: orange;
+    margin: 10px;
+    width: 150px;
+}
+
+#instruction {
+    color: green;
+    background-color: white;
+    margin: 10px;
+    width: 500px;
+}
+
+#target {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+}
+
+#scoreboard {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    float: left;
+    clear: right;
+    margin: 10px;
+}
+
+#banner {
+    clear: both;
+    background-color: blueviolet;
+    margin: 10px;
+    width: 200px;
+}
+
+#score {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
