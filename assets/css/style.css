@@ -17,6 +17,8 @@ h1 {
 }
 
 #target {
+    color: white;
+    font-size: 2em;
     background-color: green;
     width: 100px;
     height: 100px;
@@ -37,12 +39,23 @@ h1 {
     clear: both;
     background-color: blueviolet;
     margin: 10px;
-    width: 200px;
+    width: 150px;
 }
 
 #score {
     background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: white;
+    font-size: 2em;
+}
+
+img {
     width: 100px;
     height: 100px;
-    margin: 10px;
+}
+
+#crystals {
+    clear: both;
 }
