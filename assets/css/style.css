@@ -20,7 +20,7 @@ h1 {
 
 #target {
     color: white;
-    font-size: 2em;
+    font-size: 3em;
     background-color: green;
     width: 100px;
     height: 100px;
@@ -47,11 +47,11 @@ h1 {
 
 #score {
     background-color: blueviolet;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 10px;
     color: white;
-    font-size: 2em;
+    font-size: 4em;
 }
 
 img {
