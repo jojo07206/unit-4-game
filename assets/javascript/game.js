@@ -1,29 +1,19 @@
-var targetnumber = Math.floor((Math.random() * 120) + 19);;
+var randomtargetnumber = '';
 
-  $("#target").text(targetnumber);
+var randomcrystalnumber = '';
 
-  var counter = 0;
+var gameover = true;
 
-    var imageCrystal = $("<img>");
+var counter = 0;
 
-    imageCrystal.addClass("crystal-image");
+$("#target").text(createrandomtargetnumber());
 
-    imageCrystal.attr("data-crystalvalue", numberOptions[i]);
+createrandomtargetnumber = function(){
+  Math.floor((Math.random() * 120) + 19);
+}
 
-    $("#crystals").append(imageCrystal);
+createrandomcrystalnumber = function(){
+  Math.floor((Math.random() * 12) + 1);
+}
 
-  $(".crystal-image").on("click", function() {
-
-    var crystalValue = ($(this).attr("data-crystalvalue"));
-    crystalValue = parseInt(crystalValue);
-    counter += crystalValue;
-
-    alert("New score: " + counter);
-
-    if (counter === targetNumber) {
-      alert("You win!");
-    }
-
-    else if (counter >= targetNumber) {
-      alert("You lose!!");
-    }
+createrandomtargetnumber();
